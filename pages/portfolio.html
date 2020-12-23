@@ -19,7 +19,7 @@
             <span class="logo__span">WWW</span>studio
         </a>
         <nav>
-            <ul class="nav-list class="nav-list__item"">
+            <ul class="nav-list">
                 <li class="nav-list__item"><a class="nav-list__link" href="../index.html">Студія</a></li>
                 <li class="nav-list__item"><a class="nav-list__link nav-list__link--selected-page" href="./portfolio.html">Портфоліо</a></li>
                 <li class="nav-list__item"><a class="nav-list__link" href="">Контакти</a></li>
@@ -47,131 +47,141 @@
 
     <main>
         <!-- Приклади робіт-->
-        <section class="container section-projects">
+        <section class="section-projects container">
             <h2 class="visually-hidden">Приклади робіт</h2>
-            <ul class="filter">
-                <li><button type="button">Усе</button></li>
-                <li><button type="button">Web-сторінки</button></li>
-                <li><button type="button">Додатки</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+            <ul class="filter-list">
+                <li class="filter-list__item">
+                    <button class="filter-list__button" type="button">Усе</button>
+                </li>
+                <li class="filter-list__item">
+                    <button class="filter-list__button" type="button">Web-сторінки</button>
+                </li>
+                <li class="filter-list__item">
+                    <button class="filter-list__button" type="button">Додатки</button>
+                </li>
+                <li class="filter-list__item">
+                    <button class="filter-list__button" type="button">Дизайн</button>
+                </li>
+                <li class="filter-list__item">
+                    <button class="filter-list__button" type="button">Маркетинг</button>
+                </li>
             </ul>
-            <ul class="projects">
-                <li>
-                    <a class="project" href=""> 
-                        <div class="info">
+            <ul class="projects-list">
+                <li class="projects-list__item">
+                    <a class="project-card" href=""> 
+                        <div class="project-card__info">
                             <img src="../images/portfolio-1.jpg" width="370" alt="Фото ноутбука">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Технокомп</h3>
-                            <p>Веб-сайт</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Технокомп</h3>
+                            <p class="project-card__type">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-2.jpg" width="370" alt="Постер чемпіонату 2020 з футбольним м’ячем">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Soccer champpionship summer</h3>
-                            <p>Дизайн</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Soccer champpionship summer</h3>
+                            <p class="project-card__type">Дизайн</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-3.jpg" width="370" alt="Фото Капітана Америка та смаколиків">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Ресторан Капітан Америка</h3>
-                            <p>Додаток</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Ресторан Капітан Америка</h3>
+                            <p class="project-card__type">Додаток</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-4.jpg" width="370" alt="Фото хлопа затисненого в навушниках">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Проект Prime шо нікуди далі</h3>
-                            <p>Маркетинг</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Проект Prime шо нікуди далі</h3>
+                            <p class="project-card__type">Маркетинг</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-5.jpg" width="370" alt="Фото коробок з котами">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Проект Cats & Boxes</h3>
-                            <p>Додаток</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Проект Cats & Boxes</h3>
+                            <p class="project-card__type">Додаток</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-6.jpg" width="370" alt="Фото хом’яка що їсть печиво">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Inspiration and none borders</h3>
-                            <p>Веб-сайт</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Inspiration and none borders</h3>
+                            <p class="project-card__type">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-7.jpg" width="370" alt="Фото книжок з написом анонімні алкоголики">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Видання Limited Edition</h3>
-                            <p>Дизайн</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Видання Limited Edition</h3>
+                            <p class="project-card__type">Дизайн</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-8.jpg" width="370" alt="Фото кота і напис пішли їсти">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Проект FAT CAT</h3>
-                            <p>Маркетинг</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Проект FAT CAT</h3>
+                            <p class="project-card__type">Маркетинг</p>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a class="project" href="">
-                        <div class="info">
+                <li class="projects-list__item">
+                    <a class="project-card" href="">
+                        <div class="project-card__info">
                             <img src="../images/portfolio-9.jpg" width="370" alt="Фото екрану з графіками">
-                            <p>Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
+                            <p class="project-card__describe">Технокомп це сучасний продукт призначений для розповсюдження коронавірусних інфекцій. Компанії
                                 користуються цим продуктом для цифрового шпигунства, та атак на захищені сервери конкурентів</p>
                         </div>
-                        <div class="project-caption">
-                            <h3>Growing busines</h3>
-                            <p>Додаток</p>
+                        <div class="project-card__caption">
+                            <h3 class="project-card__title">Growing busines</h3>
+                            <p class="project-card__type">Додаток</p>
                         </div>
                     </a>
                 </li>
@@ -232,7 +242,7 @@
                     </label>
                     <button class="button" type="submit">
                         Підписатись
-                        <svg class="button__swg" width="24" height="24">
+                        <svg class="button__icon" width="24" height="24">
                             <use href="../images/icons.svg#icon-sending"></use>
                         </svg>
                     </button>
