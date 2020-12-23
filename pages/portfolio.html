@@ -15,28 +15,28 @@
 <body>
     <!-- Шапка -->
     <header class="header container header--bordered">
-        <a class="logo" href="../index.html">
+        <a class="logo header__logo" href="../index.html">
             <span class="logo__span">WWW</span>studio
         </a>
         <nav>
-            <ul class="header-navigation">
-                <li><a class="header-navigation__a" href="../index.html">Студія</a></li>
-                <li><a class="header-navigation__a selected-page" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="header-navigation__a" href="">Контакти</a></li>
+            <ul class="nav-list class="nav-list__item"">
+                <li class="nav-list__item"><a class="nav-list__link" href="../index.html">Студія</a></li>
+                <li class="nav-list__item"><a class="nav-list__link nav-list__link--selected-page" href="./portfolio.html">Портфоліо</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="header-contacts">
-            <li>
-                <a class="header-contacts__a" href="mailto:info@wwwstudio.com">
-                    <svg class="header-contacts__svg" width="16" height="12">
+        <ul class="head-cont-list">
+            <li class="head-cont-list__item">
+                <a class="head-cont-list__link" href="mailto:info@wwwstudio.com">
+                    <svg class="head-cont-list__icon" width="16" height="12">
                         <use href="../images/icons.svg#icon-email"></use>
                     </svg>
                     info@wwwstudio.com
                 </a>
             </li>
-            <li>
-                <a class="header-contacts__a" href="tel:+38(099)-999-99-99">
-                    <svg class="header-contacts__svg" width="10" height="16">
+            <li class="head-cont-list__item">
+                <a class="head-cont-list__link" href="tel:+38(099)-999-99-99">
+                    <svg class="head-cont-list__icon" width="10" height="16">
                         <use href="../images/icons.svg#icon-smartphone"></use>
                     </svg>
                     +38(099)-999-99-99
@@ -183,40 +183,40 @@
     <footer class="footer">
         <div class="footer__container container">
             <div class="footer__logo-address">
-                <a class="footer__logo logo" href="./index.html">
+                <a class="logo footer__logo" href="./index.html">
                     <span class="logo__span">WWW</span>studio</a>
-                <address class="footer-address">
-                    <a class="footer-address__a" href="">м. Караганда, вул. Джона Ленона 17/25</a>
-                    <a class="footer-address__a" href="mailto:info@wwwstudio.com"> info@wwwstudio.com</a>
-                    <a class="footer-address__a" href="tel:+38(099)-999-99-99">+38(099)-999-99-99</a>
+                <address class="address">
+                    <a class="address__link" href="">м. Караганда, вул. Джона Ленона 17/25</a>
+                    <a class="address__link" href="tel:+38(099)-999-99-99">+38(099)-999-99-99</a>
+                    <a class="address__link" href="mailto:info@wwwstudio.com"> info@wwwstudio.com</a>
                 </address>
             </div>
             <div class="footer__social">
-                <h3 class="footer__h3 h3">Приєднуйтесь</h3>
-                <ul class="soucial-links">
-                    <li class="soucial-links__item">
-                        <a class="soucial-links__a" href="">
+                <h3 class="footer__heading">Приєднуйтесь</h3>
+                <ul class="social-links">
+                    <li class="social-links__item">
+                        <a class="social-link footer__social-link" href="">
                             <svg width="20" height="20">
                                 <use href="../images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="soucial-links__item">
-                        <a class="soucial-links__a" href="">
+                    <li class="social-links__item">
+                        <a class="social-link footer__social-link" href="">
                             <svg width="20" height="20">
                                 <use href="../images/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="soucial-links__item">
-                        <a class="soucial-links__a" href="">
+                    <li class="social-links__item">
+                        <a class="social-link footer__social-link" href="">
                             <svg width="20" height="20">
                                 <use href="../images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="soucial-links__item">
-                        <a class="soucial-links__a" href="">
+                    <li class="social-links__item">
+                        <a class="social-link footer__social-link" href="">
                             <svg width="20" height="20">
                                 <use href="../images/icons.svg#icon-linkedin"></use>
                             </svg>
@@ -225,12 +225,12 @@
                 </ul>
             </div>
             <div>
-                <h3 class="footer__h3 h3">Підпишіться на розсилку</h3>
-                <form class="footer__form">
+                <h3 class="footer__heading">Підпишіться на розсилку</h3>
+                <form class="subscribe-form">
                     <label>
-                        <input class="footer-form__input" type="email" name="email" placeholder="Email">
+                        <input class="subscribe-form__input" type="email" name="email" placeholder="Email">
                     </label>
-                    <button class="footer-form__button button" type="submit">
+                    <button class="button" type="submit">
                         Підписатись
                         <svg class="button__swg" width="24" height="24">
                             <use href="../images/icons.svg#icon-sending"></use>
