@@ -6,8 +6,10 @@
 .team-list {
   display: flex;
 }
-.team-list__item:not(:last-child) {
-  margin-right: 30px;
+.team-list__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .team-list__item {
   background-color: $additional-color;
@@ -39,9 +41,9 @@
 
 .team-card__social-link {
   fill: $unaccent-color;
-}
 
-.team-card__social-link:hover,
-.team-card__social-link:focus {
-  fill: $additional-color;
+  &:hover,
+  &:focus {
+    fill: $additional-color;
+  }
 }

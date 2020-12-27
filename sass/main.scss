@@ -1,9 +1,14 @@
+// utils
 @import '../sass/utils/normalize';
 @import '../sass/utils/variables';
 @import '../sass/utils/trans-func-mixin';
 @import '../sass/utils/common';
 
+// components
 @import '../sass/components/special';
+@import '../sass/components/logo';
+@import '../sass/components/buttons';
+@import '../sass/components/social-links';
 @import '../sass/components/header';
 @import '../sass/components/footer';
 

@@ -4,8 +4,10 @@
 .specification-list {
   display: flex;
 }
-.specification-list__item:not(:last-child) {
-  margin-right: 30px;
+.specification-list__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .specification-list__item {
   position: relative;

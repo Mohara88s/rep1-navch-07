@@ -5,8 +5,10 @@
 .benefits {
   display: flex;
 }
-.benefits__item:not(:last-child) {
-  margin-right: 30px;
+.benefits__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .benefits__icon {

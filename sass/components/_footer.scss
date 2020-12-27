@@ -23,10 +23,11 @@
 }
 .address__link {
   width: fit-content;
-}
-.address__link:not(:first-child) {
-  margin-top: 9px;
-  color: $second-additional-color;
+
+  &:not(:first-child) {
+    margin-top: 9px;
+    color: $second-additional-color;
+  }
 }
 .footer__social {
   margin-right: auto;
