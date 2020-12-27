@@ -30,12 +30,12 @@
 
 //     add fonts
 //     font-family: 'Raleway', sans-serif;
-:root {
-  --main-text-color: #212121;
-  --auxiliary-text-color: #757575;
-  --accent-color: #2196f3;
-  --section-bg-color: #f5f4fa;
-  --additional-color: #ffffff;
-  --second-additional-color: rgba(255, 255, 255, 0.6);
-  --unaccent-color: #afb1b8;
-}
+
+$main-text-color: #212121;
+$auxiliary-text-color: #757575;
+$accent-color: #2196f3;
+$section-bg-color: #f5f4fa;
+$additional-color: #ffffff;
+$second-additional-color: rgba(255, 255, 255, 0.6);
+$unaccent-color: #afb1b8;
+$button-hover-color: #188ce8;

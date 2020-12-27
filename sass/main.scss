@@ -1,15 +1,18 @@
-// @import '../sass/utils/variables';
-// @import '../sass/utils/common';
+@import '../sass/utils/normalize';
+@import '../sass/utils/variables';
+@import '../sass/utils/common';
 
 @import '../sass/components/special';
-// @import '../sass/components/header';
-// @import '../sass/components/footer';
+@import '../sass/components/header';
+@import '../sass/components/footer';
 
-// @import '../sass/components/index-main/hero-sectiom';
-// @import '../sass/components/index-main/benefits-section';
-// @import '../sass/components/index-main/specification-section';
-// @import '../sass/components/index-main/teem-saction';
-// @import '../sass/components/index-main/clients-section';
-// @import '../sass/components/index-main/modal';
+// index
+@import '../sass/components/index-main/hero-sectiom';
+@import '../sass/components/index-main/benefits-section';
+@import '../sass/components/index-main/specification-section';
+@import '../sass/components/index-main/teem-saction';
+@import '../sass/components/index-main/clients-section';
+@import '../sass/components/index-main/modal';
 
-// @import '../sass/components/portfolio-main/projects-section';
+// portfolio
+@import '../sass/components/portfolio-main/projects-section';

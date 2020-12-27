@@ -15,7 +15,7 @@
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-  background-color: var(--section-bg-color);
+  background-color: $section-bg-color;
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -28,8 +28,8 @@
 }
 .filter-list__button:hover,
 .filter-list__button:focus {
-  color: var(--additional-color);
-  background-color: var(--accent-color);
+  color: $additional-color;
+  background-color: $accent-color;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -58,7 +58,7 @@
   transform: translateY(0);
   left: 0;
   padding: 63px 24px;
-  color: var(--additional-color);
+  color: $additional-color;
   background-color: rgba(33, 150, 243, 0.9);
   font-weight: 400;
   font-size: 18px;
@@ -83,7 +83,7 @@
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  background: var(--additional-color);
+  background: $additional-color;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;

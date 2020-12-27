@@ -26,7 +26,7 @@
   line-height: 1.19;
 }
 .logo__span {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 // buttons
@@ -40,9 +40,9 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: var(--additional-color);
+  color: $additional-color;
   fill: currentColor;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition-duration: 250ms;
@@ -53,7 +53,7 @@
 }
 .button--hovering:hover,
 .button--hovering:focus {
-  background-color: #188ce8;
+  background-color: $button-hover-color;
 }
 // soucial-links
 .social-links {
@@ -74,6 +74,6 @@
 }
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }

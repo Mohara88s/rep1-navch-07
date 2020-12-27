@@ -31,11 +31,11 @@ svg {
   display: block;
 }
 p {
-  color: var(--auxiliary-text-color);
+  color: $auxiliary-text-color;
 }
 body {
-  background-color: var(--additional-color);
-  color: var(--main-text-color);
+  background-color: $additional-color;
+  color: $main-text-color;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;

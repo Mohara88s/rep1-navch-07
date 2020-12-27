@@ -6,7 +6,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   align-items: baseline;
-  color: var(--additional-color);
+  color: $additional-color;
 }
 .footer__logo-address {
   margin-right: 70px;
@@ -26,13 +26,13 @@
 }
 .address__link:not(:first-child) {
   margin-top: 9px;
-  color: var(--second-additional-color);
+  color: $second-additional-color;
 }
 .footer__social {
   margin-right: auto;
 }
 .footer__social-link {
-  fill: var(--additional-color);
+  fill: $additional-color;
   background-color: rgba(255, 255, 255, 0.1);
 }
 .footer__heading {
