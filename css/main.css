@@ -880,6 +880,8 @@ h2 {
   position: absolute;
   top: 29px;
   left: 12px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-form__input:focus,
@@ -925,7 +927,7 @@ h2 {
   background-image: url(../images/check.svg);
   background-position: center;
   background-repeat: no-repeat;
-  border: transparent;
+  border: 2px solid transparent;
 }
 
 .order-form__checkbox:focus ~ .order-form__check-des {
