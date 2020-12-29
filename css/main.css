@@ -1,33 +1,38 @@
 @font-face {
-  font-family: "Raleway";
-  src: url(/fonts/Raleway/static/Raleway-Bold.ttf);
+  font-family: 'Raleway';
+  src: url(./fonts/Raleway/static/Raleway-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "Roboto";
-  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "Roboto";
-  src: url(/fonts/Roboto/Roboto-Medium.ttf);
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto/Roboto-Medium.ttf);
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "Roboto";
-  src: url(/fonts/Roboto/Roboto-Bold.ttf);
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto/Roboto-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "Roboto";
-  src: url(/fonts/Roboto/Roboto-Black.ttf);
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto/Roboto-Black.ttf);
   font-weight: 900;
   font-style: normal;
 }
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -124,7 +129,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -208,9 +213,9 @@ select {
 Correct the inability to style clickable types in iOS and Safari.
 */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
@@ -263,7 +268,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-[type=search] {
+[type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -382,6 +387,7 @@ h2 {
   font-size: 26px;
   line-height: 1.19;
 }
+
 .logo__span {
   color: #2196f3;
 }
@@ -414,9 +420,11 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button__icon {
   margin-left: 10px;
 }
+
 .button--hovering:hover, .button--hovering:focus {
   background-color: #188ce8;
 }
@@ -426,6 +434,7 @@ h2 {
   display: -ms-flexbox;
   display: flex;
 }
+
 .social-links__item:not(:last-child) {
   margin-right: 10px;
 }
@@ -448,6 +457,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-link:hover, .social-link:focus {
   background-color: #2196f3;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -529,8 +539,9 @@ h2 {
   color: #2196f3;
   position: relative;
 }
+
 .nav-list__link--selected-page::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   bottom: 0;
@@ -582,6 +593,7 @@ h2 {
   width: -moz-fit-content;
   width: fit-content;
 }
+
 .address__link:not(:first-child) {
   margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
@@ -782,6 +794,7 @@ h2 {
 .team-card__social-link {
   fill: #afb1b8;
 }
+
 .team-card__social-link:hover, .team-card__social-link:focus {
   fill: #ffffff;
 }
@@ -824,6 +837,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .clients-list__link:hover, .clients-list__link:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
@@ -866,6 +880,7 @@ h2 {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
 .backdrop.is-hidden .modal-order {
   -webkit-transform: translate(-50%, -200%) scale(0.2);
           transform: translate(-50%, -200%) scale(0.2);
@@ -895,6 +910,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-order__close:hover, .modal-order__close:focus {
   fill: #2196f3;
 }
@@ -938,6 +954,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .order-form__input:focus {
   border-color: #2196f3;
 }
@@ -958,36 +975,35 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .order-form__textarea::-webkit-input-placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.order-form__textarea::-moz-placeholder {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
+
 .order-form__textarea:-ms-input-placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 .order-form__textarea::-ms-input-placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 .order-form__textarea::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 .order-form__textarea:focus {
   border-color: #2196f3;
 }
@@ -1001,6 +1017,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .order-form__input:focus ~ .order-form__icon {
   fill: #2196f3;
 }
@@ -1020,12 +1037,14 @@ h2 {
   border: 2px solid transparent;
   border-radius: 2px;
 }
+
 .order-form__checkbox:focus ~ .order-form__check-des {
   border: 2px solid black;
   border-radius: 2px;
 }
+
 .order-form__check-des:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 15px;
   left: 13px;
@@ -1039,6 +1058,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .order-form__checkbox:checked ~ .order-form__check-des:after {
   background-image: url(../images/check.svg);
   background-color: #2196f3;
@@ -1095,6 +1115,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .filter-list__button:hover, .filter-list__button:focus {
   color: #ffffff;
   background-color: #2196f3;
@@ -1113,7 +1134,8 @@ h2 {
 .projects-list__item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.projects-list__item:not(:nth-last-child(-n+3)) {
+
+.projects-list__item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
 
@@ -1148,7 +1170,8 @@ h2 {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-card:hover .project-card__describe, .project-card:focus .project-card__describe {
+.project-card:hover .project-card__describe,
+.project-card:focus .project-card__describe {
   opacity: 1;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
