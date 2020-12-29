@@ -957,6 +957,7 @@ h2 {
 
 .order-form__input:focus {
   border-color: #2196f3;
+  outline: none;
 }
 
 .order-form__textarea {
@@ -1006,11 +1007,12 @@ h2 {
 
 .order-form__textarea:focus {
   border-color: #2196f3;
+  outline: none;
 }
 
 .order-form__icon {
   position: absolute;
-  top: 29px;
+  top: 28px;
   left: 12px;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
@@ -1034,12 +1036,12 @@ h2 {
 .order-form__check-des {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 2px;
 }
 
 .order-form__checkbox:focus ~ .order-form__check-des {
-  border: 2px solid black;
+  border: 1px solid #2196f3;
   border-radius: 2px;
 }
 

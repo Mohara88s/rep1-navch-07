@@ -92,6 +92,7 @@
 
   &:focus {
     border-color: $accent-color;
+    outline: none;
   }
 }
 
@@ -116,11 +117,12 @@
 
   &:focus {
     border-color: $accent-color;
+    outline: none;
   }
 }
 .order-form__icon {
   position: absolute;
-  top: 29px;
+  top: 28px;
   left: 12px;
   @include trans-func();
 
@@ -139,11 +141,11 @@
 }
 .order-form__check-des {
   box-sizing: content-box;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 2px;
 
   .order-form__checkbox:focus ~ & {
-    border: 2px solid black;
+    border: 1px solid $accent-color;
     border-radius: 2px;
   }
 
